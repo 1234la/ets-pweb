@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
+/**********************************/
+/********** General CSS ***********/
+/**********************************/
+body {
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    background: #ffffff;
+}
+
+a {
+    color: #FF6F61;
+    transition: 0.5s;
+}
+
+a:hover,
+a:active,
+a:focus {
+    color: #000000;
+    outline: none;
+    text-decoration: none;
+}
+
+p {
+    padding: 0;
+    margin: 0 0 15px 0;
+    color: #000000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px 0;
+    padding: 0;
+    color: #000000;
+    font-weight: 600;
+}
+
+h4,
+h5,
+h6 {
+    font-weight: 400;
+}
+
+.back-to-top {
+    position: fixed;
+    display: none;
+    background: #FF6F61;
+    color: #ffffff;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 1;
+    font-size: 16px;
+    right: 15px;
+    bottom: 15px;
+    transition: background 0.5s;
+    border-radius: 4px;
+    z-index: 11;
+}
+
+.back-to-top:hover {
+    background: #000000;
+}
+
+.back-to-top i {
+    padding-top: 9px;
+    color: #ffffff;
+}
+/**********************************/
+/*********** Top Bar CSS **********/
+/**********************************/
+.top-bar {
+    padding: 2px 0;
+    background: #7E33E0;
+    height: 44px;
+}
+
+.top-bar .tb-contact p {
+    display: inline-block;
+    margin: 0;
+    padding-top: 11px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height */
+    color: #F1F1F1;
+}
+
+.top-bar .tb-contact p i {
+    margin-right: 6px;
+}
+
+.top-bar .tb-contact p:first-child {
+    margin-right: 15px;
+}
+
+.top-bar .tb-menu {
+    font-size: 0;
+    text-align: right;
+    padding-top: 11px;
+}
+
+.top-bar .tb-menu a {
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height */
+    color: #F1F1F1;
+    margin: 0 8px;
+}
+
+.top-bar .tb-menu .dropdown-menu a{
+    color: #7E33E0;
+}
+
+.top-bar .tb-menu a i {
+    margin-left: 6px;
+}
+
+.top-bar .tb-menu a:hover {
+    color: #ffffff;
+}
+
+@media (max-width: 768px) {
+    .top-bar .tb-contact,
+    .top-bar .tb-menu {
+        text-align: center;
+    }
+}
+
+
+/**********************************/
+/*********** Brand CSS ************/
+/**********************************/
+.brand {
+    padding: 15px 0 15px 0;
+    background: #ffffff;
+}
+
+.brand .b-logo {
+    text-align: left;
+    overflow: hidden;
+}
+
+.brand .b-logo a h1 {
+    max-width: 100%;
+    max-height: 60px;
+    margin-top: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 34px;
+    /* identical to box height */
+    color: #0D0E43;
+}
+
+.brand .b-menu a{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height, or 125% */
+    color: #0D0E43;
+}
+
+.brand .b-menu a:hover{
+    color: #FB2E86;
+}
+
+.brand .b-search {
+    width: 100%;
+}
+
+.brand .b-search input[type=text] {
+    width: 100%;
+    height: 40px;
+    padding: 0 15px;
+    color: #666666;
+    border: 2px solid #E7E6EF;
+    border-radius: 4px;
+}
+
+.brand .b-search input[type=text]:focus {
+    border-color: #FF6F61;
+}
+
+.brand .b-search button {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 0;
+    right: 15px;
+    border: none;
+    background: none;
+    /* color: #FB2E86; */
+    color: white;
+    background: #FB2E86;
+    border-radius: 0 4px 4px 0;
+}
+
+.brand .b-search button:hover {
+    background: #FB2E86;
+    color: #ffffff;
+}
+
+@media (min-width: 768px) {
+    .brand {
+        max-height: 90px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .brand .b-logo,
+    .brand .b-search {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    
+    .brand .b-search {
+        margin-bottom: 0;
+    }
+}
+
+/* Header */
+.header{
+    background: #F6F5FF;
+    padding: 50px 0;
+}
+.judul h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 36px;
+    line-height: 42px;
+    color: #101750;
+}
+
+.header .header-menu a {
+    color: black;
+    font-size: 14px;
+    margin: 0 8px;
+}
+
+.header .header-menu a:active {
+    color: #FB2E86;
+}
+
+.header .header-menu a:last-child {
+    margin-right: 0;
+}
+
+.header .header-menu a::after {
+    position: absolute;
+    content: ".";
+    margin: 1px 0 0 6px;
+    color: #FF6F61;
+    font-size: 14px;
+}
+
+.header .header-menu a:last-child::after {
+    display: none;
+}
+
+/* Login */
+.panel h2{ color:#444444; font-size:18px; margin:0 0 8px 0;}
+.panel p { color:#777777; font-size:14px; margin-bottom:30px; line-height:24px;}
+.login-form .form-control {
+  background: #f7f7f7 none repeat scroll 0 0;
+  border: 1px solid #d4d4d4;
+  border-radius: 4px;
+  font-size: 14px;
+  height: 50px;
+  line-height: 50px;
+}
+.main-div {
+  background: #ffffff none repeat scroll 0 0;
+  border-radius: 2px;
+  margin: 90px auto 70px;
+  max-width: 50%;
+  padding: 50px 70px 70px 71px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.login-form .form-group {
+  margin-bottom:10px;
+}
+.login-form{ text-align:center;}
+.forgot a {
+  color: #777777;
+  font-size: 14px;
+}
+.create p, a {
+    margin-top: 15px;
+    color: #777777;
+    font-size: 14px;
+  }
+.login-form  .btn.btn-primary {
+  background: #FB2E86 none repeat scroll 0 0;
+  border-color: #FB2E86;
+  color: #ffffff;
+  font-size: 14px;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  padding: 0;
+}
+
+.panel h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px;
+    line-height: 37px;
+    color: black;
+}
+.forgot {
+  text-align: left; margin-bottom:30px;
+}
+.botto-text {
+  color: #ffffff;
+  font-size: 14px;
+  margin: auto;
+}
+.login-form .btn.btn-primary.reset {
+  background: #ff9900 none repeat scroll 0 0;
+}
+.back { text-align: left; margin-top:10px;}
+.back a {color: #444444; font-size: 13px;text-decoration: none;}
+
+.logo2 .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
