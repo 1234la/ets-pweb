@@ -51,7 +51,7 @@ h6 {
 .back-to-top {
     position: fixed;
     display: none;
-    background: #FF6F61;
+    background: #FB2E86;
     color: #ffffff;
     width: 35px;
     height: 35px;
@@ -131,7 +131,7 @@ h6 {
 }
 
 .top-bar .tb-menu a:hover {
-    color: #ffffff;
+    color: #FB2E86;
 }
 
 @media (max-width: 768px) {
@@ -385,13 +385,16 @@ background-color: #F701A8;
     list-style: none;
     
 }
+
+
+
 /**********************************/
 /********** Footer CSS ************/
 /**********************************/
 .footer {
     position: relative;
     padding: 60px 0 0 0;
-    background: #111111;
+    background: #E7E4F8;
 }
 
 .footer .footer-widget {
@@ -401,16 +404,18 @@ background-color: #F701A8;
 }
 
 .footer .footer-widget .title {
-    color: #ffffff;
-    font-size: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    line-height: 45px;
+    color: black;
     letter-spacing: 1px;
     padding-bottom: 10px;
     margin-bottom: 25px;
-    border-bottom: 3px double #ffffff;
+    border-bottom: 3px double #9DA0AE;
 }
 
 .footer .footer-widget p {
-    color: #ffffff;
+    color: #8A8FB9;
 }
 
 .footer .footer-widget ul {
@@ -428,10 +433,15 @@ background-color: #F701A8;
 }
 
 .footer .footer-widget ul li a {
-    color: #ffffff;
+    color: #8A8FB9;
     white-space: nowrap;
     display: block;
     line-height: 23px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
 }
 
 .footer .footer-widget ul li a::before {
@@ -443,17 +453,17 @@ background-color: #F701A8;
 
 .footer .footer-widget ul li a:hover {
     padding-left: 10px;
-    color: #FF6F61;
+    color: #FB2E86;
 }
 
 .footer .contact-info p {
     margin-bottom: 10px;
-    color: #ffffff;
+    color: #8A8FB9;
     font-size: 16px;
 }
 
 .footer .contact-info p i {
-    color: #ffffff;
+    color: #9DA0AE;
     margin-right: 5px;
 }
 
@@ -470,16 +480,16 @@ background-color: #F701A8;
     padding: 5px 0;
     text-align: center;
     font-size: 18px;
-    background: #ffffff;
+    background: #FB2E86;
     border-radius: 4px;
 }
 
 .footer .social a i {
-    color: #111111;
+    color: white;
 }
 
 .footer .social a:hover {
-    background: #FF6F61;
+    background: #9DA0AE;
 }
 
 .footer .social a:hover i {
@@ -512,7 +522,7 @@ background-color: #F701A8;
     right: 0;
     padding: 0 15px;
     border: none;
-    background: #111111;
+    background: #FB2E86;
     color: #ffffff;
     font-size: 14px;
     border: 1px solid #ffffff;
@@ -520,7 +530,7 @@ background-color: #F701A8;
 }
 
 .footer .newsletter .btn:hover {
-    background: #FF6F61;
+    background: #9DA0AE;
 }
 
 .footer .newsletter input:focus,
@@ -534,12 +544,12 @@ background-color: #F701A8;
 /**********************************/
 .footer-menu {
     position: relative;
-    background: #111111;
+    background: #E7E4F8;
 }
 
 .footer-menu .container {
     padding: 15px 0;
-    border-top: 1px solid #000000;
+    border-top: 1px solid #9DA0AE;
 }
 
 .footer-menu .f-menu {
@@ -548,15 +558,15 @@ background-color: #F701A8;
 }
 
 .footer-menu .f-menu a {
-    color: #ffffff;
+    color: #9DA0AE;
     font-size: 14px;
     margin-right: 15px;
     padding-right: 15px;
-    border-right: 1px solid #ffffff;
+    border-right: 1px solid #9DA0AE;
 }
 
 .footer-menu .f-menu a:hover {
-    color: #FF6F61;
+    color: #FB2E86;
 }
 
 .footer-menu .f-menu a:last-child {
@@ -572,7 +582,7 @@ background-color: #F701A8;
 .footer-bottom {
     position: relative;
     padding: 25px 0;
-    background: #000000;
+    background: #E7E4F8;
 }
 
 .footer-bottom .copyright {
@@ -585,7 +595,7 @@ background-color: #F701A8;
 
 .footer-bottom .copyright p,
 .footer-bottom .template-by p {
-    color: #ffffff;
+    color: #9DA0AE;
     font-weight: 400;
     margin: 0;
 }
@@ -593,6 +603,7 @@ background-color: #F701A8;
 .footer-bottom .copyright p a,
 .footer-bottom .template-by p a {
     font-weight: 600;
+    color: #FB2E86;
 }
 
 .footer-bottom .copyright p a:hover,
