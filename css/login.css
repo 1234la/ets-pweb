@@ -310,6 +310,10 @@ h6 {
     font-size: 14px;
   }
 
+  .forgot a:hover{
+    color: #FB2E86;
+  }
+
 .login-form  .btn.btn-primary {
   background: #FB2E86 none repeat scroll 0 0;
   border-color: #FB2E86;
