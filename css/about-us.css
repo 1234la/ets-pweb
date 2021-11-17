@@ -8,7 +8,7 @@ body {
     color: #000000;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    background: #ffffff;
+    background-colors: #ffffff;
 }
 
 a {
@@ -243,7 +243,6 @@ h6 {
     position: absolute;
     width: 100%;
     height: 286px;
-    left: 0px;
     top: 125px;
 
     background: #F6F5FF;
@@ -253,7 +252,7 @@ h6 {
     position: absolute;
     width: 159px;
     height: 36px;
-    left: 150px;
+    left: 50px;
     top: 96px;
     
     font-family: Josefin Sans;
@@ -281,7 +280,7 @@ h6 {
 /* About us small */
 #about-us-small {
     width: 67px;
-    left: 260px;
+    left: 160px;
 
     /* pink */
 
@@ -291,7 +290,7 @@ h6 {
 /* Pages */
 #pages {
     width: 42px;
-    left: 207px;
+    left: 107px;
 
     color: #000000;
 }
@@ -299,7 +298,7 @@ h6 {
 /* Home */
 #home {
     width: 43px;
-    left: 150px;
+    left: 50px;
 
     color: #000000;
 }
@@ -321,7 +320,7 @@ div #home a, div #pages a {
     position: absolute;
     width: 552px;
     height: 409px;
-    left: 150px;
+    left: 50px;
     top: 530px;
 
     background: #2B3CAB;
@@ -333,7 +332,7 @@ div #home a, div #pages a {
     position: absolute;
     width: 555px;
     height: 390px;
-    left: 165px;
+    left: 65px;
     top: 530px;
     
     background: url(../img/about-us/image1.png), #FFFFFF;
@@ -348,7 +347,7 @@ div #home a, div #pages a {
     position: absolute;
     width: 522px;
     height: 96px;
-    left: 750px;
+    left: 650px;
     top: 571px;
 
     font-family: Josefin Sans;
@@ -364,7 +363,7 @@ div #home a, div #pages a {
     position: absolute;
     width: 550px;
     height: 49px;
-    left: 750px;
+    left: 650px;
     top: 681px;
 
     font-family: Lato;
@@ -384,7 +383,7 @@ div #home a, div #pages a {
     position: absolute;
     width: 145px;
     height: 44px;
-    left: 750px;
+    left: 650px;
     top: 830px;
 
     /* pink */
@@ -416,11 +415,11 @@ div #home a, div #pages a {
     position: absolute;
     width: 264px;
     height: 26px;
-    left: 602px;
+    left: 502px;
     top: 1080px;
 
     font-family: Josefin Sans;
-    font-size: 42px;
+    font-size: 35px;
     font-weight: 700;
     line-height: 26px;
     /* identical to box height, or 61% */
@@ -431,7 +430,7 @@ div #home a, div #pages a {
 
 .features-card {
     position: absolute;
-    width: 270px;
+    width: 260px;
     height: 320px;
     top: 1173px;
 
@@ -449,19 +448,19 @@ div #home a, div #pages a {
 }
 
 #free-delivery {
-    left: 150px;
+    left: 50px;
 }
 
 #cashback {
-    left: 448px; 
+    left: 340px; 
 }
 
 #premium {
-    left: 746px;
+    left: 630px;
 }
 
 #support {
-    left: 1048px;
+    left: 920px;
 }
 
 #features .small-container .row h5 {
