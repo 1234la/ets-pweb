@@ -325,6 +325,10 @@ h6 {
   padding: 0;
 }
 
+.login-form  .btn.btn-primary:hover {
+    background-color: #af2e66;
+}
+
 .panel h2{
     font-family: 'Josefin Sans', sans-serif;
     font-size: 32px;
