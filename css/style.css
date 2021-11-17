@@ -128,6 +128,7 @@ h6 {
 
 .top-bar .tb-menu a i {
     margin-left: 6px;
+    transition: all 0.5s;
 }
 
 .top-bar .tb-menu a:hover {
@@ -263,8 +264,8 @@ h6 {
     font-weight: bold;
   }
 
-  .carousel-content h6{
-    font-size: 14px;
+  .carousel-content h5{
+    font-size: 16px;
     line-height: 28px;
     font-weight: 700;
     /* identical to box height, or 175% */
@@ -300,6 +301,12 @@ h6 {
     font-size: 15px;
     line-height: 20px;
     letter-spacing: 0.02em;
+
+    transition: all 0.5s;
+}
+
+.carousel-content a:hover {
+    background-color: #af2e66;
 }
 
 /* Katalog  */
@@ -422,10 +429,12 @@ background-color: #F701A8;
     font-size: 18px;
     line-height: 22px;
     color: #151875;
+    transition: all 0.5s;
 }
 
 .list p:hover{
     color: #F701A8;
+    cursor: pointer;
 }
 
 
