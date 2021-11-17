@@ -9,6 +9,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     background: #ffffff;
+    width: 100%;
 }
 
 a {
@@ -243,7 +244,6 @@ h6 {
     position: absolute;
     width: 100%;
     height: 286px;
-    left: 0px;
     top: 125px;
 
     background: #F6F5FF;
@@ -253,7 +253,7 @@ h6 {
     position: absolute;
     width: 75px;
     height: 36px;
-    left: 150px;
+    left: 50px;
     top: 96px;
     
     font-family: Josefin Sans;
@@ -281,7 +281,7 @@ h6 {
 /* About us small */
 #faq-small {
     width: 25px;
-    left: 260px;
+    left: 160px;
 
     /* pink */
 
@@ -291,7 +291,7 @@ h6 {
 /* Pages */
 #pages {
     width: 42px;
-    left: 207px;
+    left: 107px;
 
     color: #000000;
 }
@@ -299,7 +299,7 @@ h6 {
 /* Home */
 #home {
     width: 43px;
-    left: 150px;
+    left: 50px;
 
     color: #000000;
 }
@@ -319,7 +319,7 @@ div #home a, div #pages a {
 
 .information-container .title {
     position: absolute;
-    left: 150px;
+    left: 50px;
     height: 30px;
     
     font-family: Josefin Sans;
@@ -360,7 +360,7 @@ section p {
     position: absolute;
     width: 499px;
     height: 45px;
-    left: 150px;
+    left: 50px;
 
     font-family: Josefin Sans;
     font-size: 16px;
@@ -392,7 +392,7 @@ section p {
     position: absolute;
     width: 566px;
     height: 738px;
-    left: 757px;
+    left: 620px;
     top: 534px;
 
     background: #F8F8FD;
@@ -466,15 +466,14 @@ section p {
 
 .brands {
     position: absolute;
-    width: 1246px;
     height: 128px;
-    left: 150px;
+    left: 50px;
     top: 1364px;
 }
 
 .row .logo {
     width: 160px;
-    margin-left: 60px;
+    margin-left: 40px;
 }
 
 .row .logo img {
