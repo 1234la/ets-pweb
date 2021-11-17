@@ -138,7 +138,6 @@ h6 {
     }
 }
 
-
 /**********************************/
 /*********** Brand CSS ************/
 /**********************************/
@@ -304,6 +303,13 @@ h6 {
     color: #777777;
     font-size: 14px;
   }
+
+  .create a:hover{
+    margin-top: 15px;
+    color: #FB2E86;
+    font-size: 14px;
+  }
+
 .login-form  .btn.btn-primary {
   background: #FB2E86 none repeat scroll 0 0;
   border-color: #FB2E86;
